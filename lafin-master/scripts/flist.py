@@ -18,3 +18,4 @@ for root, dirs, files in os.walk(args.path):
 
 images = sorted(images)
 np.savetxt(args.output, images, fmt='%s')
+#this is my new change
